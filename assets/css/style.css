@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 
 :root {
-  --primary-color: #0a1128;
+  --primary-color: #552277;
   --white: #ffffff;
   --ligth-gray-color: #eeeeee;
   --gap: 3rem;
@@ -18,7 +18,7 @@ html {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-image: url('../img/mainbg.svg');
+  background-image: url('../img/bullseye-gradient.svg');
   background-size: cover;
   background-position: center center;
   font-size: 2rem;
@@ -50,7 +50,7 @@ a {
 }
 
 .main-bg {
-  background-image: url('../img/mainbg.svg');
+  background-image: url('../img/bullseye-gradient.svg');
   background-size: cover;
   background-position: center center;
 }
@@ -116,7 +116,7 @@ a {
   left: 50%;
   width: 0;
   height: 0.2rem;
-  background: crimson;
+  background: #9cf6f6;
   transition: all 300ms ease-in-out;
 }
 
