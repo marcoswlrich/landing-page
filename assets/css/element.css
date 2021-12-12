@@ -5,6 +5,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -21,6 +22,10 @@ h1 {
 
 h2 {
   font-size: 5.5rem;
+  font-size: 6rem;
+  margin-bottom: 5rem;
+  text-transform: uppercase;
+  line-height: 1.2;
 }
 
 h3 {
@@ -37,4 +42,39 @@ h5 {
 
 a {
   text-decoration: none;
+}
+
+p {
+  margin-bottom: 3rem;
+}
+
+.responsive-table {
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+table {
+  min-width: 360px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table caption {
+  font-style: italic;
+  font-size: 1.6rem;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+table td,
+table th {
+  white-space: nowrap;
+  padding: 1rem;
+  text-align: left;
+  border: 0.1rem solid gray;
+}
+
+tfoot td,
+table th {
+  background: #84ecec;
 }
